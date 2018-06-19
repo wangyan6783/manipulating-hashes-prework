@@ -9,9 +9,9 @@ def second_challenge
   lists = groceries.values
   list = []
   lists.each { |items| 
-    items.each { |item|
-      list << item
+    items.collect { |item|
+      item
     }
   }
-  list
+  
 end
