@@ -8,7 +8,7 @@ def second_challenge
 
   lists = groceries.values
   list = []
-  lists.collect { |items| 
+  lists.each { |items| 
     items.each { |item|
       list << item
     }
